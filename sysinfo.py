@@ -34,7 +34,7 @@ layout = [
 	[sg.Text(platform.win32_edition(), key="win32ed", visible=False)]
 ]
 
-window = sg.Window("SYSinfo", layout, size=(700,650), finalize=True) #моделироваение экрана
+window = sg.Window("SYSinfo", layout, icon=r'logosysinfo.png', size=(700,650), finalize=True) #моделироваение экрана
 
 while True:
 	event, values = window.read() #чтение боксов и регистация действий с экрана
